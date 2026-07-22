@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - run: zip -r "build/${{ env.artifact_name }}.zip" manifest.json mcp-echo-tools.json color.png outline.png skills/
+      - run: mkdir -p build && zip -r "build/${{ env.artifact_name }}.zip" manifest.json mcp-echo-tools.json color.png outline.png skills/
 
       - uses: actions/upload-artifact@v7
         with:
