@@ -1,0 +1,48 @@
+{
+   "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+   "manifestVersion": "1.28",
+   "version": "1.0.0",
+   "id": "95157a22-13f5-41da-aa73-26dd8b1a01ab",
+   "developer": {
+      "name": "Yvand",
+      "websiteUrl": "https://contoso.com",
+      "privacyUrl": "https://contoso.com/privacy",
+      "termsOfUseUrl": "https://contoso.com/terms"
+   },
+   "name": {
+      "short": "MCP echo test",
+      "full": "MCP echo test plugin for Copilot Cowork"
+   },
+   "description": {
+      "short": "Contract analysis, clause extraction, and legal research",
+      "full": "Comprehensive legal tools for Copilot Cowork including contract analysis, clause extraction, risk assessment, and legal research capabilities."
+   },
+   "icons": {
+      "color": "color.png",
+      "outline": "outline.png"
+   },
+   "accentColor": "#2B579A",
+   "agentSkills": [
+      {
+         "folder": "./skills/mcp-echo"
+      }
+   ],
+   "agentConnectors": [
+      {
+         "id": "mcp-echo-anonymous",
+         "displayName": "Anonymous echo MCP server",
+         "description": "Anonymous echo MCP server for testing purposes",
+         "toolSource": {
+            "remoteMcpServer": {
+               "mcpServerUrl": "https://mcpplaygroundonline.com/mcp-echo-server",
+               "mcpToolDescription": {
+                  "file": "mcp-echo-tools.json"
+               },
+               "authorization": {
+                  "type": "None"
+               }
+            }
+         }
+      }
+   ]
+}

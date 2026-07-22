@@ -1,0 +1,13 @@
+{
+   // See https://go.microsoft.com/fwlink/?LinkId=733558
+   // for the documentation about the tasks.json format
+   "version": "2.0.0",
+   "tasks": [
+      {
+         "label": "zip project (bash)",
+         "type": "shell",
+         "command": "zip -r build/plugin-yvand-mcp-anon.zip manifest.json mcp-echo-tools.json color.png outline.png skills/",
+         "problemMatcher": []
+      }
+   ]
+}

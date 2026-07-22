@@ -1,0 +1,8 @@
+{
+  "tools": [
+    {
+      "name": "test_mcp_echo",
+      "description": "Tests the MCP echo server. inputs: text to echo back. Returns the echoed text."
+    }
+  ]
+}
