@@ -5,9 +5,9 @@
    "id": "caa5a2af-e920-4e97-8206-4009ba21df36",
    "developer": {
       "name": "Yvand",
-      "websiteUrl": "https://contoso.com",
-      "privacyUrl": "https://contoso.com/privacy",
-      "termsOfUseUrl": "https://contoso.com/terms"
+      "websiteUrl": "https://github.com/Yvand/cowork-basic-plugin-mcp",
+      "privacyUrl": "https://github.com/Yvand/cowork-basic-plugin-mcp",
+      "termsOfUseUrl": "https://github.com/Yvand/cowork-basic-plugin-mcp"
    },
    "name": {
       "short": "MCP echo test",
