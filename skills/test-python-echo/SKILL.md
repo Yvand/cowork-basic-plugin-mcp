@@ -12,7 +12,7 @@ metadata:
 Run `scripts/echo.py` with a Python 3 interpreter, passing the user's text as the positional argument:
 
 ```sh
-python scripts/echo.py "text to echo"
+python3 scripts/echo.py "text to echo"
 ```
 
 Return the script's output to the user.
