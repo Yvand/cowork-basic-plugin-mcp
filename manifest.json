@@ -1,7 +1,7 @@
 {
    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
    "manifestVersion": "1.28",
-   "version": "1.1.0",
+   "version": "1.1.1",
    "id": "caa5a2af-e920-4e97-8206-4009ba21df36",
    "developer": {
       "name": "Yvand",
@@ -14,8 +14,8 @@
       "full": "Basic tests plugin for Copilot Cowork"
    },
    "description": {
-      "short": "Basic plugin to do simple tests with Cowork",
-      "full": "Basic plugin to do simple tests with Copilot Cowork, including echo tests."
+      "short": "Basic plugin to run simple tests in Cowork",
+      "full": "Basic plugin to run simple tests in Copilot Cowork."
    },
    "icons": {
       "color": "color.png",
