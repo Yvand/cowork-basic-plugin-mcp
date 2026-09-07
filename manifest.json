@@ -10,12 +10,12 @@
       "termsOfUseUrl": "https://github.com/Yvand/cowork-basic-plugin-mcp"
    },
    "name": {
-      "short": "Basic test plugin",
-      "full": "Basic test plugin for Copilot Cowork"
+      "short": "Basic tests plugin",
+      "full": "Basic tests plugin for Copilot Cowork"
    },
    "description": {
-      "short": "Basic plugins to do simple tests with Cowork",
-      "full": "Basic plugins to do simple tests with Copilot Cowork, including echo tests."
+      "short": "Basic plugin to do simple tests with Cowork",
+      "full": "Basic plugin to do simple tests with Copilot Cowork, including echo tests."
    },
    "icons": {
       "color": "color.png",
@@ -24,7 +24,7 @@
    "accentColor": "#2B579A",
    "agentSkills": [
       {
-         "folder": "./skills/mcp-echo"
+         "folder": "./skills/test-mcp-echo"
       },
       {
          "folder": "./skills/run-echo-python"

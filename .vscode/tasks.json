@@ -6,7 +6,7 @@
       {
          "label": "zip project (bash)",
          "type": "shell",
-         "command": "mkdir -p build && zip -r build/cowork-test-plugin.zip manifest.json mcp-echo-tools.json color.png outline.png skills/",
+         "command": "mkdir -p build && rm -f build/cowork-test-plugin.zip && zip -r build/cowork-test-plugin.zip manifest.json mcp-echo-tools.json color.png outline.png skills/",
          "problemMatcher": []
       }
    ]

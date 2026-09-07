@@ -1,5 +1,5 @@
 ---
-name: mcp-echo
+name: test-mcp-echo
 description: |
   Demonstrates how to connect to an external MCP (Model Context Protocol) server from a Copilot skill.
   Use when user asks to "test the echo server", "send a message to the MCP server", or "verify MCP connectivity".
