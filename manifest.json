@@ -27,7 +27,7 @@
          "folder": "./skills/test-mcp-echo"
       },
       {
-         "folder": "./skills/run-echo-python"
+         "folder": "./skills/test-python-echo"
       }
    ],
    "agentConnectors": [

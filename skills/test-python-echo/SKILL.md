@@ -1,5 +1,5 @@
 ---
-name: run-echo-python
+name: test-python-echo
 description: Runs the bundled Python echo script with user-provided text. Use only when the user asks to run the local echo Python script.
 license: MIT
 metadata:
