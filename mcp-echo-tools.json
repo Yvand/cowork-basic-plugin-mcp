@@ -2,7 +2,20 @@
   "tools": [
     {
       "name": "test_mcp_echo",
-      "description": "Tests the MCP echo server. inputs: text to echo back. Returns the echoed text."
+      "description": "Tests the MCP echo server. inputs: text to echo back. Returns the echoed text.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The text to echo back."
+          }
+        },
+        "required": [
+          "text"
+        ],
+        "additionalProperties": false
+      }
     }
   ]
 }
